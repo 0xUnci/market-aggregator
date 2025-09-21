@@ -1,0 +1,128 @@
+{
+  "equities": [
+    { "symbol": "SPY.US" },
+    { "symbol": "QDVI.DE" },
+    { "symbol": "AGGH.US" },
+    { "symbol": "VUAA.UK" },
+    { "symbol": "VDEA.UK" },
+    { "symbol": "VWCE.DE" },
+    { "symbol": "VWCG.UK" },
+    { "symbol": "VGEK.DE" },
+    { "symbol": "IWQU.UK" },
+    { "symbol": "IEQD.UK" },
+    { "symbol": "IEVL.UK" },
+    { "symbol": "XGLE.UK" },
+    { "symbol": "AEME.UK" }
+  ],
+  "crypto": [
+    {
+      "symbol": "SUI",
+      "pythSymbol": "Crypto.SUI/USD",
+      "coingeckoId": "sui",
+      "coinpaprikaId": "sui-sui",
+      "defillamaChain": "sui"
+    },
+    {
+      "symbol": "HASUI",
+      "pythSymbol": "Crypto.HASUI/USD",
+      "coingeckoId": "haedal-staked-sui"
+    },
+    {
+      "symbol": "AFSUI",
+      "pythSymbol": "Crypto.AFSUI/USD",
+      "coinpaprikaId": "afsui-aftermath-staked-sui",
+      "coingeckoId": "aftermath-staked-sui"
+    },
+    {
+      "symbol": "BNB",
+      "pythSymbol": "Crypto.BNB/USD",
+      "coinpaprikaId": "bnb-bnb",
+      "coingeckoId": "bnb",
+      "defillamaChain": "bsc"
+    },
+    {
+      "symbol": "ETH",
+      "pythSymbol": "Crypto.ETH/USD",
+      "coinpaprikaId": "eth-ethereum",
+      "coingeckoId": "ethereum",
+      "defillamaChain": "ethereum"
+    },
+    {
+      "symbol": "SOL",
+      "pythSymbol": "Crypto.SOL/USD",
+      "coinpaprikaId": "sol-solana",
+      "coingeckoId": "solana",
+      "defillamaChain": "solana"
+    },
+    {
+      "symbol": "XRP",
+      "pythSymbol": "Crypto.XRP/USD",
+      "coinpaprikaId": "xrp-xrp",
+      "coingeckoId": "xrp",
+      "defillamaChain": "xrpl"
+    },
+    {
+      "symbol": "TRX",
+      "pythSymbol": "Crypto.TRX/USD",
+      "coinpaprikaId": "trx-tron",
+      "coingeckoId": "tron",
+      "defillamaChain": "tron"
+    },
+    {
+      "symbol": "DOGE",
+      "pythSymbol": "Crypto.DOGE/USD",
+      "coingeckoId": "dogecoin",
+      "coinpaprikaId": "doge-dogecoin",
+      "defillamaChain": "dogechain"
+    },
+    {
+      "symbol": "ADA",
+      "pythSymbol": "Crypto.ADA/USD",
+      "coingeckoId": "cardano",
+      "coinpaprikaId": "ada-cardano",
+      "defillamaChain": "cardano"
+    }
+  ],
+  "forex": [
+    {
+      "symbol": "EUR",
+      "stooqPair": "eurusd"
+    },
+    {
+      "symbol": "JPY",
+      "stooqPair": "jpyusd"
+    },
+    {
+      "symbol": "GBP",
+      "stooqPair": "gbpusd"
+    },
+    {
+      "symbol": "CNY",
+      "stooqPair": "cnyusd"
+    }
+  ],
+  "rates": [
+    { "symbol": "EFFR", "fredId": "EFFR" },
+    { "symbol": "OBFR", "fredId": "OBFR" },
+    { "symbol": "SOFR", "fredId": "SOFR" },
+    { "symbol": "IORB", "fredId": "IORB" },
+    { "symbol": "RRPONTSYD", "fredId": "RRPONTSYD" },
+    { "symbol": "MPRIME", "fredId": "MPRIME" },
+    { "symbol": "DGS1MO", "fredId": "DGS1MO" },
+    { "symbol": "DGS3MO", "fredId": "DGS3MO" },
+    { "symbol": "DGS6MO", "fredId": "DGS6MO" },
+    { "symbol": "DGS1", "fredId": "DGS1" },
+    { "symbol": "DGS2", "fredId": "DGS2" },
+    { "symbol": "DGS5", "fredId": "DGS5" },
+    { "symbol": "DGS10", "fredId": "DGS10" },
+    { "symbol": "DGS20", "fredId": "DGS20" },
+    { "symbol": "DGS30", "fredId": "DGS30" },
+    { "symbol": "DTB3", "fredId": "DTB3" }
+  ],
+  "macro": {
+    "series": [
+      { "id": "CPIAUCSL", "name": "US CPI All Urban Consumers, SA" },
+      { "id": "FEDFUNDS", "name": "Effective Federal Funds Rate" }
+    ]
+  }
+}

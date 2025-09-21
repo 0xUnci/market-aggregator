@@ -1,0 +1,20 @@
+{
+  "name": "data-source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "collect:crypto": "tsx src/collectors/crypto.ts",
+    "collect:forex": "tsx src/collectors/forex.ts",
+    "collect:macro": "tsx src/collectors/macro.ts",
+    "collect:rates": "tsx src/collectors/rates.ts",
+    "sync": "tsx src/sync-to-sheet.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.5.2",
+    "dotenv": "^17.2.2",
+    "googleapis": "^160.0.0"
+  }
+}
