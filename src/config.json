@@ -99,6 +99,10 @@
     {
       "symbol": "CNY",
       "stooqPair": "cnyusd"
+    },
+    {
+      "symbol": "DXY",
+      "stooqPair": "usd_i"
     }
   ],
   "rates": [
